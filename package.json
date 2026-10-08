@@ -1,0 +1,33 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "My Social Networks — API REST (Node.js, Express, MongoDB) : utilisateurs, groupes, événements, discussions, albums, sondages, billetterie, shopping list, covoiturage.",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "node --watch index.mjs",
+    "docs:export": "node scripts/export-openapi.mjs"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "api",
+    "rest"
+  ],
+  "author": "Aziz Djerbi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.3.0",
+    "joi": "^18.0.1",
+    "joi-to-swagger": "^6.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.1",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
